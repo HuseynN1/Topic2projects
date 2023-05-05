@@ -1,0 +1,147 @@
+body {
+    background-color: rgba(197, 194, 189, 0.475);
+    
+}
+
+/*################---Header design---##########################################################*/
+header {    
+    border-bottom: 2px solid rgb(123, 123, 123);
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+}
+.logo {
+    background-color: rgb(44, 173, 162);
+    padding-top: 40px;
+    margin-left: 130px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 130px;
+    box-sizing: border-box;
+    font-size: 35px;
+    font-weight: bold;
+}
+.links {
+    text-align: right;
+    float: right;
+    width: 50%;
+    height: 45px;
+    margin-right: 150px;
+    box-sizing: border-box;
+}
+.linkul>li {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+.linkul>li>a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    padding: 7px;
+    margin: 0;
+    color: rgb(143, 143, 143)
+}
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.linkul>li>a:hover {
+    background-color: rgb(85, 192, 231);
+    color: black;
+    
+}
+
+/* -------------------Main section design--------------------------------------------- */
+.main-container{
+    margin-left: 130px;
+    margin-right: auto;
+    width: 80%;
+    }
+
+/*****---------This is Firstbar section - Left size---------*/
+
+.firstbar {
+    margin:25px 25px 0 0;
+    width: 68%;
+    background-color: white;
+    box-sizing: border-box;
+    float: left;
+}
+
+.headfirst p {
+    
+    font-size: 40px;
+    padding: 25px ;
+    border-bottom: 2px solid rgb(123, 123, 123);
+   margin:0 20px;
+    font-weight: bold;
+    color: rgb(44, 173, 162);
+}
+
+.boxes{
+    line-height: 25px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+label {
+    
+    display: block;
+   
+  }
+input {
+    display: block;
+    
+  }
+
+
+/*****---------This is Connectbar section--Right size---------*****/
+
+
+.connectbar {
+    width: 27%;
+    margin-top: 25px;
+    float: right;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.headbar {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 60px;
+    color: rgb(44, 173, 162);
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+.qutu {
+    margin-left: 30px;    
+}
+.qutu img {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 18%;
+
+}
+/* ***************Footer section design  */
+footer{
+    margin-top:98%;
+    width: 100%;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding:70px ;
+    background-color: rgb(69, 65, 65);
+}
