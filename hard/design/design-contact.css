@@ -4,48 +4,68 @@ body {
 }
 
 /*################---Header design---##########################################################*/
-header {    
+header {  
+    width: 100%;  
     border-bottom: 2px solid rgb(123, 123, 123);
-    height: 130px;
+    height: 8vh;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
 }
+
 .logo {
     background-color: rgb(44, 173, 162);
-    padding-top: 40px;
+    padding-top: 10px;
     margin-left: 130px;
-    text-align: center;
-    float: left;
-    width: 20%;
-    height: 130px;
+    align-items: center;
+    width: 30%;
+    height: 100%;
     box-sizing: border-box;
-    font-size: 35px;
+    font-size: 3vw;
     font-weight: bold;
 }
+.logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .links {
     text-align: right;
-    float: right;
-    width: 50%;
-    height: 45px;
+    width: 40%;
+    height: 100%;
     margin-right: 150px;
     box-sizing: border-box;
+  
+}
+.linkul{
+    display: flex;
+    height:100%
 }
 .linkul>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
     font-weight: bold;
     text-align: center;
-    padding-top: 40px;
-    padding-right: 10px;
-    display: inline-block;
-    font-size: 20px;
+    padding: 0;
+    
+  
+
 }
+
 .linkul>li>a {
-    display: inline-block;
-    width: 100px;
-    height: 50px;
+    font-size: 1vw;
+    
+    
     text-decoration: none;
     padding: 7px;
     margin: 0;
     color: rgb(143, 143, 143)
 }
+
 a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
@@ -57,14 +77,14 @@ a {
     color: black;
     
 }
-
 /* -------------------Main section design--------------------------------------------- */
 .main-container{
-    margin-left: 130px;
+    margin-left: auto;
     margin-right: auto;
     width: 80%;
+    display: flex;
+    justify-content: space-between;
     }
-
 /*****---------This is Firstbar section - Left size---------*/
 
 .firstbar {
@@ -72,17 +92,19 @@ a {
     width: 68%;
     background-color: white;
     box-sizing: border-box;
-    float: left;
+   
 }
+
 
 .headfirst p {
     
-    font-size: 40px;
+    font-size: 2vw;
     padding: 25px ;
     border-bottom: 2px solid rgb(123, 123, 123);
    margin:0 20px;
     font-weight: bold;
     color: rgb(44, 173, 162);
+    text-align: center;
 }
 
 .boxes{
@@ -106,33 +128,39 @@ input {
 
 
 .connectbar {
+   
     width: 27%;
     margin-top: 25px;
-    float: right;
     background-color: white;
-    box-sizing: border-box;
+    height: 100%
 }
 
 .headbar {
     text-align: center;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2vw;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0 60px;
     color: rgb(44, 173, 162);
     border-bottom: 1px solid rgb(123, 123, 123);
 }
-
-.qutu {
-    margin-left: 30px;    
+.listitems{
+    display: flex;
 }
+.qutu {
+    
+    margin-top: 40px;
+    margin-left: 30px;  
+  text-align: center;
+}
+
 .qutu img {
-    float: left;
+    
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
-    width: 18%;
+    width: 40%;
 
 }
 /* ***************Footer section design  */
